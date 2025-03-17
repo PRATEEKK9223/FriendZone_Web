@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rigestration_page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="Registration" action="RegistrationConformation.html" method="get">
+            <h1>Registration Form</h1>
+            <label for="name" >Name :</label>
+            <input type="text" id="name" name="name" required placeholder="enter full name"><br><br>
+            <label for="age">Age :</label>
+            <input type="number" id="age" name="age" required min="18"><br><br>
+            <label for="place">Place :</label>
+            <input type="text" id="place" name="place" required><br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="con">Mobile No :</label>
+            <input type="number" id="con" name="contact" required><br><br>
+            <label for="dob">DateOfBirth :</label>
+            <input type="date" name="DOB" id="dob" required><br><br>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female <br><br>
+            <label for="about">About :</label><br>
+            <textarea name="about" id="about" >enter your self</textarea>
+            <label for="photo">Add image</label>
+            <input type="file" name="photo" id="photo"><br><br>
+            <button type="submit" >Registration</button>
+        </form>
+    </body>
+   
+</html>
